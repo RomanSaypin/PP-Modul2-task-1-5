@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = AppConfig.class)
 public class MainTest {
-
+//реализовал class Egg6 без @Component
     @Autowired
     private ApplicationContext applicationContext;
 
